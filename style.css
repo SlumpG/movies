@@ -238,9 +238,13 @@ a{
     color: blanchedalmond;
     margin: 1% 5%;
 }
+
 .card img{
  width: 100%;   
 }
+.card img:hover{
+    transform: scale(0.96);   
+   }
 
 .ba1, .ba2, .ba3{
     border: none;
