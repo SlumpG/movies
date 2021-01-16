@@ -123,7 +123,7 @@ body{
 }
 .bestMoiesImg{
     height: 400px;
-    width: 800px;
+    width: 1000px;
     background-image: url("imgs/movies1.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -196,6 +196,25 @@ a{
     text-decoration: none;
     color: blanchedalmond;
     cursor: pointer;
+}
+
+.btnWatch{
+    border: 1px black solid;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.8s;
+}
+.btn1{
+    color: blanchedalmond;
+}
+.btn1:hover{
+    color: black;
+    background-color: blanchedalmond;
 }
 
 
