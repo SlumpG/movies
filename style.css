@@ -33,7 +33,7 @@ body{
 .block{
     position: absolute;
     color: blanchedalmond;
-    transform: translate(-100vw,0 );
+    transform: translate(0,0 );
     animation: slide 20s infinite;
 }
 @keyframes slide {
