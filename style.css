@@ -89,7 +89,7 @@ body{
     width: 100%;
     padding: 10px;
 }
-
+/* 
 .bm1, .bm2, .bm3{
     border: none;
     border-radius: 10px;
@@ -97,7 +97,8 @@ body{
     width: 20%;
     background-color: black;
     color: blanchedalmond;
-}
+} */
+
 .bestM img{
 
     width: fit-content;
@@ -264,21 +265,24 @@ a{
 
 .card{
     border: none;
-    border-radius: 10px;
+    border-radius: 0 0 10px 10px;
     box-shadow:0 3px 10px rgba(0, 0, 0, 0.2);
     width: 20%;
     background-color: black;
     color: blanchedalmond;
     margin: 1% 5%;
 }
+.card p{
+    padding: 0 10px;
+}
 
 .card img{
  width: 100%;   
 }
 .card img:hover{
-    transform: scale(0.96);   
+    transform: scale(0.98);   
    }
-
+/* 
 .ba1, .ba2, .ba3{
     border: none;
     border-radius: 10px;
@@ -286,7 +290,7 @@ a{
     width: 20%;
     background-color: black;
     color: blanchedalmond;
-}
+} */
 
 .top3Action{
     display: flex;
