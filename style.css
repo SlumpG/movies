@@ -127,7 +127,7 @@ body{
     background-image: url("imgs/movies1.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
-    animation: switch 30s infinite linear ;
+    animation: switch 60s infinite linear ;
 
 }
 @keyframes switch {
