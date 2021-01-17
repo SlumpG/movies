@@ -447,9 +447,15 @@ a{
     flex-direction: column ;
      
 }
+.container{
+    width: 300px;
+}
+.top3{
+    width: 300px;
+}
 
 .card{
-    width: 80%;
+    width: 80%; 
 }
 
 .categoreis{
