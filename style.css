@@ -318,7 +318,12 @@ a{
 }
 .card img:hover{
     transform: scale(0.98);   
-   }
+}
+
+.card h4{
+    padding: 0 5px;
+}
+
 /* 
 .ba1, .ba2, .ba3{
     border: none;
