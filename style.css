@@ -441,16 +441,88 @@ a{
 }
 
 @media (max-width:600px){
-    .papatainer, .container{
-        display:flex;
-        flex-flow: column wrap;
-     } 
-    .container1,.container2,.container3{
-        display:flex;
-        flex-flow: column wrap;
-    } 
-    .bestMoiesImg{
-        display: none;
-    }
+    
+    * {
+    display: flex;
+    flex-direction: column ;
+     
+}
+
+.card{
+    width: 80%;
+}
+
+.categoreis{
+    grid-area: left;
+}
+
+.dropbtn{
+    position: fixed;
+    background-color: rgb(141, 135, 135);
+    border: 1px solid blanchedalmond;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding:10px 20px ;
+    font-family: 'Roboto', sans-serif;
+    color:blanchedalmond;
+   
+}
+.categories{
+    position: relative;
+    display: inline-block;
+}
+.drop-content{
+    display: none;
+    position: fixed;
+    margin-top: 40px;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.drop-content a{
+    display: block;
+    text-decoration: none;
+    padding-bottom: 1%;
+}
+.drop-content a:hover{
+    background-color: rgb(141, 135, 135);
+}
+.categories:hover .drop-content{
+    display: block;
+
+}
+.categories:hover .dropbtn {
+    background-color: rgb(141, 135, 135);
+
+}
+a{
+    text-decoration: none;
+    color: blanchedalmond;
+    cursor: pointer;
+}
+
+.btnWatch{
+    border: 1px black solid;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.8s;
+}
+.btn1{
+    color: blanchedalmond;
+}
+.btn1:hover{
+    color: black;
+    background-color: blanchedalmond;
+}
+
+
+
+
+
 
 }
