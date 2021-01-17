@@ -35,7 +35,7 @@ body{
     color: blanchedalmond;
     font-weight: 500;
     transform: translate(0,0 );
-    animation: slide 30s infinite;
+    animation: slide 30s infinite alternate;
 }
 @keyframes slide {
     0%{
@@ -127,7 +127,7 @@ body{
     background-image: url("imgs/movies1.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
-    animation: switch 60s infinite linear ;
+    animation: switch 60s infinite linear alternate;
 
 }
 @keyframes switch {
